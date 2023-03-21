@@ -1,0 +1,10 @@
+﻿  operator2.c
+d:\installationsite\vs2017\vs2017-project\demo\vs2017\operator\operator_2\operator2\operator2.c(25): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+  d:\installationsite\vs2017\vs2017-project\demo\vs2017\operator\operator_2\operator2\operator2.c(25): note: 请考虑在格式字符串中使用“%zd”
+d:\installationsite\vs2017\vs2017-project\demo\vs2017\operator\operator_2\operator2\operator2.c(29): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+  d:\installationsite\vs2017\vs2017-project\demo\vs2017\operator\operator_2\operator2\operator2.c(29): note: 请考虑在格式字符串中使用“%zd”
+d:\installationsite\vs2017\vs2017-project\demo\vs2017\operator\operator_2\operator2\operator2.c(35): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+  d:\installationsite\vs2017\vs2017-project\demo\vs2017\operator\operator_2\operator2\operator2.c(35): note: 请考虑在格式字符串中使用“%zd”
+d:\installationsite\vs2017\vs2017-project\demo\vs2017\operator\operator_2\operator2\operator2.c(36): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+  d:\installationsite\vs2017\vs2017-project\demo\vs2017\operator\operator_2\operator2\operator2.c(36): note: 请考虑在格式字符串中使用“%zd”
+  operator2.vcxproj -> D:\installationsite\VS2017\VS2017-PROJECT\demo\VS2017\operator\operator_2\operator2\x64\Debug\operator2.exe

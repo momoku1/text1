@@ -1,0 +1,4 @@
+﻿  function1.c
+d:\installationsite\vs2017\vs2017-project\demo\vs2017\function\function_1\function_1\function1.c(93): warning C4101: “a”: 未引用的局部变量
+d:\installationsite\vs2017\vs2017-project\demo\vs2017\function\function_1\function_1\function1.c(72): warning C4716: “six”: 必须返回一个值
+  function_1.vcxproj -> D:\installationsite\VS2017\VS2017-PROJECT\demo\VS2017\function\function_1\function_1\Debug\function_1.exe

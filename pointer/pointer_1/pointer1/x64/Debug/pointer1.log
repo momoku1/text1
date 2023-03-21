@@ -1,0 +1,16 @@
+﻿  pointer1.c
+d:\installationsite\vs2017\vs2017-project\demo\vs2017\pointer\pointer_1\pointer1\pointer1.c(28): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+  d:\installationsite\vs2017\vs2017-project\demo\vs2017\pointer\pointer_1\pointer1\pointer1.c(28): note: 请考虑在格式字符串中使用“%zd”
+d:\installationsite\vs2017\vs2017-project\demo\vs2017\pointer\pointer_1\pointer1\pointer1.c(29): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+  d:\installationsite\vs2017\vs2017-project\demo\vs2017\pointer\pointer_1\pointer1\pointer1.c(29): note: 请考虑在格式字符串中使用“%zd”
+d:\installationsite\vs2017\vs2017-project\demo\vs2017\pointer\pointer_1\pointer1\pointer1.c(30): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+  d:\installationsite\vs2017\vs2017-project\demo\vs2017\pointer\pointer_1\pointer1\pointer1.c(30): note: 请考虑在格式字符串中使用“%zd”
+d:\installationsite\vs2017\vs2017-project\demo\vs2017\pointer\pointer_1\pointer1\pointer1.c(31): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+  d:\installationsite\vs2017\vs2017-project\demo\vs2017\pointer\pointer_1\pointer1\pointer1.c(31): note: 请考虑在格式字符串中使用“%zd”
+d:\installationsite\vs2017\vs2017-project\demo\vs2017\pointer\pointer_1\pointer1\pointer1.c(32): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+  d:\installationsite\vs2017\vs2017-project\demo\vs2017\pointer\pointer_1\pointer1\pointer1.c(32): note: 请考虑在格式字符串中使用“%zd”
+d:\installationsite\vs2017\vs2017-project\demo\vs2017\pointer\pointer_1\pointer1\pointer1.c(33): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+  d:\installationsite\vs2017\vs2017-project\demo\vs2017\pointer\pointer_1\pointer1\pointer1.c(33): note: 请考虑在格式字符串中使用“%zd”
+d:\installationsite\vs2017\vs2017-project\demo\vs2017\pointer\pointer_1\pointer1\pointer1.c(34): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+  d:\installationsite\vs2017\vs2017-project\demo\vs2017\pointer\pointer_1\pointer1\pointer1.c(34): note: 请考虑在格式字符串中使用“%zd”
+  pointer1.vcxproj -> D:\installationsite\VS2017\VS2017-PROJECT\demo\VS2017\pointer\pointer_1\pointer1\x64\Debug\pointer1.exe
