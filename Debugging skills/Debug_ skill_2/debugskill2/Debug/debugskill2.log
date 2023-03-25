@@ -1,0 +1,3 @@
+﻿  debugskill2.c
+d:\installationsite\vs2017\vs2017-project\demo\vs2017\debugging skills\debug_ skill_2\debugskill2\debugskill2.c(169): error C2166: 左值指定 const 对象
+d:\installationsite\vs2017\vs2017-project\demo\vs2017\debugging skills\debug_ skill_2\debugskill2\debugskill2.c(170): warning C4090: “初始化”: 不同的“const”限定符
