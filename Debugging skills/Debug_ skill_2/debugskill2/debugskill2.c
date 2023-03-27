@@ -142,25 +142,29 @@
 //	}
 //}
 //修改版本3-最优版本
-//#include <assert.h>
-//void my_strcpy(char *Destination, const char *source)//假设source和Destination写反了 加一个const *source就是不可变的
-//{
-//	assert(source != NULL);//断言   表达式为真断言成功 为假断言失败会进行报错，提示错误出现在哪里
-//	//不希望source为空指针，否则会提示问题出现在哪里
-//	while (*Destination++ = *source++)//如果source接受到的是空指针，无法解引用会引起程序崩溃
-//	{
-//		
-//	}
-//}
-//int main()
-//{
-//	char arr1[20] = "xxxxxxxxxxx";
-//	char arr2[ ] = "hello";
-//	my_strcpy(arr1,arr2);//假设起始源地址传递的空指针
-//	//strcpy(arr1, arr2);
-//	printf("%s\n", arr1);
-//	return 0;
-//}
+//strcpy这个库函数，其实返回的是目标空间的起始地址
+//以下为标准的库函数写法
+#include <assert.h>
+char * my_strcpy(char *Destination, const char *source)//假设source和Destination写反了 加一个const *source就是不可变的
+{
+	assert(source != NULL);//断言   表达式为真断言成功 为假断言失败会进行报错，提示错误出现在哪里
+	//不希望source为空指针，否则会提示问题出现在哪里
+	char* ret = Destination;
+	while (*Destination++ = *source++)//如果source接受到的是空指针，无法解引用会引起程序崩溃
+	{
+		;//hello拷贝
+	}
+	return ret;//返回目标空间的起始地址
+}
+int main()
+{
+	char arr1[20] = "xxxxxxxxxxx";
+	char arr2[ ] = "hello";
+	//my_strcpy(arr1,arr2);//假设起始源地址传递的空指针
+	//strcpy(arr1, arr2);
+	printf("%s\n", my_strcpy(arr1, arr2));//链式访问   函数作为另一个函数的参数叫做链式访问
+	return 0;
+}
 
 //const分析 const修饰变量 ---常变量 ：本质上是变量但是不能修改
 //int main()
